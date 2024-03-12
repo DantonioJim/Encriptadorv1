@@ -1,0 +1,9 @@
+Encryptador de texto
+
+Ingrese el texto aqui
+alert solo letras minusculas y sin acentos
+Encriptar
+desencriptar
+ningun mensaje fue encontrado
+
+
