@@ -31,6 +31,7 @@ function ocultarAdelante(){
 function encriptarTexto(mensaje){
     var texto = mensaje;
     var textoFinal = "";
+    
 
         for(var i = 0; i< texto.length; i++ ){
             if(texto [i] =="a"){
@@ -52,10 +53,11 @@ function encriptarTexto(mensaje){
                  textoFinal = textoFinal + texto[i]
             }
         }
+        
         return textoFinal;
 
   }
-  function desencriptarTexto(mensaje){
+  function desencriptarTexto(mensaje){ 
      var texto = mensaje;
      var textoFinal = "";
 
@@ -83,10 +85,12 @@ function encriptarTexto(mensaje){
         else{
             textoFinal = textoFinal + texto[i]
         }
-
+       
      }
      return textoFinal;
+    
   }
+  
   const btnCopiar = document.querySelector(".btn-copiar");
   btnCopiar.addEventListener("click", copiar =() =>{
     var contenido = document.querySelector(".texto-resultado").textContent;

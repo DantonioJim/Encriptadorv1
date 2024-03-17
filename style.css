@@ -201,4 +201,47 @@ main{
     display: none;
   
 }
+@media screen and (max-width:480px){
+    .seccion-1{
+        align-items: center;
+    
+    }
+    .caja{
+        align-content: center;
 
+    }
+    .alerta{
+        align-items: center;
+        margin-left: 10em;
+
+    }
+    .btn-encriptar{
+        align-items: center;
+        margin-left: 25em;
+    }
+    .btn-desencriptar{
+        align-content: center;
+        margin-left: 25em;
+        margin-top: 10px;
+    }
+    .seccion-2{
+        
+        margin-top: 80em;
+        margin-left: 40em;
+        
+    }
+    .contenedor-parrafo{
+        width: auto;
+        height: auto;
+       margin-left: 0em;
+    }
+.contener-copiar{
+    margin-top: 100px;
+}
+.contenedor-resultado{
+    margin-left: 400em;
+    
+}
+
+    
+}
