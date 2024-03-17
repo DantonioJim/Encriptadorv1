@@ -217,16 +217,17 @@ main{
     }
     .btn-encriptar{
         align-items: center;
-        margin-left: 25em;
+        margin-top: 10px;
+        margin-left: 26em;
     }
     .btn-desencriptar{
         align-content: center;
-        margin-left: 25em;
+        margin-left: 26em;
         margin-top: 10px;
     }
     .seccion-2{
         
-        margin-top: 80em;
+        margin-top: 70em;
         margin-left: 40em;
         
     }
