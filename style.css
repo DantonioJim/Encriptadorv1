@@ -239,8 +239,14 @@ main{
     margin-top: 100px;
 }
 .contenedor-resultado{
-    margin-left: 400em;
+    margin-left: 2em;
     
+    
+}
+.texto-resultado{
+    margin-top: 1em;
+    margin-right: 30em;
+
 }
 
     
